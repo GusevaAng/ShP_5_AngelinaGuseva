@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.sidebarAll {
+    margin-top: 10px;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #c2c2c2;
+}
+
+.favoriteFilms {
+    list-style-type: '💖  ';
+    font-size: 16px;
+    color: #c6a9c4;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.review {
+    display: grid;
+    grid-template-areas: 
+        "author date"
+        "type type"
+        "title title"
+        "review review";
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid #3f3f3f;
+    border-radius: 20px;
+    background: #d3aaf5;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    color: #141414;
+}
+
+.reviewAuthor {
+    grid-area: author;
+    font-size: 18px;
+    text-align: left;
+}
+
+.reviewTitle {
+    grid-area: title;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.reviewAType {
+    grid-area: type;
+    margin: 0;
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+}
+
+.reviewReview {
+    grid-area: review;
+    font-size: 14px;
+    text-align: left;
+}
+
+.reviewDate {
+    grid-area: date;
+    font-size: 12px;
+    text-align: right;
+}
+

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.forResearch {
+    display: grid;
+    grid-template-areas: 
+        "inputSearch inputSearch"
+        "films films";
+}
+
+.inputSearch {
+    grid-area: inputSearch;
+    margin: 5px;
+}
+
+.inputForSerch {
+    width: 95%;
+    height: 18px;
+    border: solid 2px #6352b9;
+    border-radius: 10px;
+}
+
+.forSearch {
+    grid-area: films;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(207px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(450px, 1fr));
+    grid-auto-flow: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+

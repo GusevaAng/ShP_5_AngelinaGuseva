@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.addReview {
+    display: grid;
+    grid-template-areas: 
+        "p p"
+        "authorReview authorReview"
+        "titleReview reviewReview"
+        "b b";
+    gap: 15px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #515151;
+    border-radius: 15px;
+    background: #2d2d2d;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    color: #c9c9c9;
+}
+
+.addNewReview {
+    grid-area: p;
+    font-size: 24px;
+}
+
+#authorReview {
+    grid-area: authorReview;
+    font-size: 16px;
+    height: 20px;
+    border: 2px solid #9a6e9e;
+    border-radius: 5px;
+}
+
+#titleReview {
+    grid-area: titleReview;
+    font-size: 16px;
+    width: 250px;
+    height: 20px;
+    border: 2px solid #9a6e9e;
+    border-radius: 5px;
+}
+
+#reviewReview {
+    grid-area: reviewReview;
+    font-size: 16px;
+    width: 650px;
+    height: 20px;
+    border: 2px solid #9a6e9e;
+    border-radius: 5px;
+}
+
+.buttonAddNewReview {
+    grid-area: b;
+}
