@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+.filmsForRecomendation {
+    display: grid;
+    grid-template-areas: 
+        "recomendationForWhatch recomendationForWhatch recomendationForWhatch";
+    column-gap: 40px;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border: solid 2px #482b54;
+    border-radius: 20px;
+    background: #9f93ac;
+}
+
+.recomendationForWhatch {
+    grid-area: recomendationForWhatch;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #181419;
+}
+

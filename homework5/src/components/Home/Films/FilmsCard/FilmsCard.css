@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.filmsCard {
+    display: grid;
+    grid-template-areas: 
+        "poster poster"
+        "name name"
+        "description description"
+        "cast cast"
+        "category category"
+        "rating button";
+    gap: 5px;
+    width: 305px;
+    height: 750px;
+    border: 1px solid #121212;
+    border-radius: 20px;
+    background: #111111;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    color: #cfcfcf;
+}
+
+.filmPoster {
+    grid-area: poster;
+    width: 307px;
+    aspect-ratio: 2 / 3;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    justify-self: center;
+}
+
+.filmName {
+    grid-area: name;
+    font-size: 24px;
+    color: #7d7d7d;
+}
+
+.filmDescription {
+    grid-area: description;
+    padding: 10px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.filmCast {
+    grid-area: cast;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.filmCategory {
+    grid-area: category;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.filmRating {
+    grid-area: rating;
+    margin-bottom: 10px;
+    width: 120px;
+    font-size: 14px;
+    span {
+        font-size: 16px;
+        color: rgb(253, 193, 255);
+    }
+}
+
+button {
+    grid-area: button;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 1px 2px 5px 0 #BA83DE;    
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.filmName:visited,
+.filmName:link {
+    text-decoration: none;
+    color: #7d7d7d;
+    font-size: 24px;
+}
+
+.favoriteButtonTrue {
+    background: #e3b3e9;
+}
+
+.favoriteButtonFalse {
+    background: #e6e6e6;
+}

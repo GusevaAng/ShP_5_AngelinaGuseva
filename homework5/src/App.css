@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+#root {
+  max-width: 1440px;
+  font-family: 'Nunito', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.home {
+    background: #231841;
+    background: linear-gradient(29deg, #0c0915 0%, #191719 86%, #181719 100%);
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+        "header header"
+        "films sidebar"
+        "footer footer";
+    margin: 0;
+    padding: 0;
+}
+
+.headerHome {
+    grid-area: header;
+}
+
+.sidebarHome {
+    grid-area: sidebar;
+    position: sticky;
+}
+
+.filmsHome {
+    grid-area: films;
+}
+
+.footerHome {
+    grid-area: footer;
+    
+}
+
+a {
+    color: #686868;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(225, 153, 225);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(149, 140, 222);
+    text-decoration: none;
+}
+
+a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+

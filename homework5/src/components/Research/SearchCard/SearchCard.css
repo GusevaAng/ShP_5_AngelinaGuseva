@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.searchCard {
+    grid-area: films;
+    display: grid;
+    grid-template-areas: 
+        "posterSearch posterSearch"
+        "nameSearch nameSearch"
+        "descriptionSearch descriptionSearch";
+    gap: 5px;
+    width: 205px;
+    height: 450px;
+    border: 1px solid #121212;
+    border-radius: 20px;
+    background: #111111;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    color: #cfcfcf;
+}
+
+
+.filmNameSearch {
+    grid-area: nameSearch;
+    font-size: 18px;
+    color: #7d7d7d;
+}
+
+.filmPosterSearch {
+    grid-area: posterSearch;
+    width: 207px;
+    aspect-ratio: 2 / 3;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    justify-self: center;
+}
+
+.filmDescriptionSearch {
+    grid-area: descriptionSearch;
+    padding: 5px;
+    text-align: justify;
+    font-size: 14px;
+}
